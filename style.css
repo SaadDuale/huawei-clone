@@ -1,3 +1,5 @@
+/* Black Menu */
+
 .blackmenu {
     padding-right: 8rem;
     background-color: black;
@@ -19,3 +21,66 @@
     width: 2rem;
     margin-right: 1rem;
 }
+
+/* White Menu */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 7rem;
+    padding-left: 7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+/* Logo */
+
+
+.menu .logo {
+    width: 15rem;
+}
+
+
+/* 5 menu items  */
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 1rem;
+
+}
+
+
+
+
+
+/* Two icons on the right */
+.menu .icons {
+    display: flex;
+    justify-content: space-between;
+    width: 12%;
+}
+
+.menu .icons .single_icon {
+    display: flex;
+    align-items: center;
+}
+
+.menu_icon {
+    width: 2rem;
+}
+
+.menu .icon .single_icon .p {
+    padding-left: 1rem;
+    font-size: 1.7rem;
+}
+
+/* The main drop down menu */
