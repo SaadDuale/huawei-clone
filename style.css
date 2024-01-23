@@ -1,0 +1,21 @@
+.blackmenu {
+    padding-right: 8rem;
+    background-color: black;
+    color: lightgray;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.blackmenu .menuitem {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem; 
+}
+
+.blackmenu .menuitem img {
+    width: 2rem;
+    margin-right: 1rem;
+}
