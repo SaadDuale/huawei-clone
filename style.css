@@ -123,3 +123,40 @@ li {
 }
 
 /* The main drop down menu */
+
+
+
+/* Header */
+
+.header {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 0rem;
+    padding-bottom: 4rem;
+}
+
+.header .banner {
+    width: 100%;
+}
+
+.header .learnmore {
+    background-color: white;
+    border: 1px solid rgb(17,17,17);
+    cursor: pointer;
+    font-size: 14px;
+    height: 40px;
+    line-height: 38px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    width: 170px;
+    display: block;
+    margin: auto;
+}
+
+.learnmore:hover {
+    background-color: red;
+    color: white;
+    border: none;
+}
