@@ -1,3 +1,42 @@
+/* Below are the general styles- linking different fonts to their elements */
+
+body,
+ul,
+h1,
+h2,
+h3,
+p,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+}
+
+body, 
+button {
+    font-family: "Noto Sans", sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+li {
+    font-size: 1.3rem;
+}
+
+
+/* Specific styles for the different sections*/
+
+
 /* Black Menu */
 
 .blackmenu {
