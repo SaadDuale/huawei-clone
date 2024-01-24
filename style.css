@@ -126,7 +126,7 @@ li {
 
 
 
-/* Header */
+/* Header styles below */
 
 .header {
     border-bottom: 1px solid #e6e6e6;
@@ -160,3 +160,68 @@ li {
     color: white;
     border: none;
 }
+
+/* General styles for all sections */
+
+.whats_new,
+.mate40,
+.newsandevent,
+.penultimate {
+    padding: 1rem;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* What's new styles below */
+
+.whats_new {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.whats_new .heading {
+    text-align: center;
+    font-weight: 800;
+}
+
+.heading_underline {
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.rowone,
+.rowtwo,
+.rowthree {
+    display: flex;
+    justify-content: center;
+}
+
+.rowone img,
+.rowtwo img,
+.rowthree img {
+    display: flex;
+    position: relative;
+    width: calc((100% / 3) - 0%);
+    margin: 1%;
+}
+
+.rowone .watch, 
+.rowtwo .laptop {
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
