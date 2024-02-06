@@ -191,6 +191,7 @@ li {
 .heading_underline {
     text-align: center;
     padding-bottom: 4rem;
+    color: darkred;
 }
 
 .rowone,
@@ -221,13 +222,131 @@ li {
     width: 100%;
 }
 
+/* News and events styles below */
 
+.newsandevents {
+    padding-bottom: 7rem;
+    padding-top: 4rem;
+}
 
+.newsandevents .heading {
+    text-align: center;
+}
 
+.newsandevents .heading_underline {
+    color: darkred;
+    text-align: center;
+    padding-bottom: 3rem;
+}
 
+.newsandevents .allevents {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
 
+/* News and Events, - Single Event Box */
 
+.eventbox {
+    background-color: #f8f8f8;
+    width: calc((100% / 3) - 3%);
+    margin: 1%;
+    cursor: pointer;
+    line-height: 22.8571px;
+    padding-bottom: 30px;
+}
+.boxtag {
+    background-color: #979797;
+    color: white;
+    font-size: 1.6rem;
+    margin: 0rem;
+    padding: 0.5rem;
+    width: 8rem;
+    text-align: center;
+    position: relative;
+    margin-bottom: -3.2rem;
+}
 
+.eventimage {
+    width: 100%;
+}
 
+.eventname {
+    margin-left: 2rem;
+    padding: 1rem;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
 
+.location_date {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+} 
 
+.eventbox .location,
+.eventbox .date {
+    display: flex;
+}
+
+.locationicon,
+.calendaricon {
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+
+.location_text,
+.date_text {
+    color: #666666;
+}
+
+/* News and events - News Box */
+
+.manyposts {
+    height: 37rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    overflow: auto;
+}
+
+.tagnews {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.newspost {
+    margin-bottom: 1rem;
+}
+
+.newstitle {
+    font-size: 1.5rem;
+}
+
+.newsdate {
+    color: #666666;
+    font-size: 1.3rem;
+}
+
+/* News and Events Two Buttons  */
+
+.newsandevents_buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.newsandevents .moreinfo {
+    background-color: white;
+    border: 1px solid rgb(17, 17, 17);
+    cursor: pointer;
+    font-size: 14px;
+    height: 40px;
+    line-height: 38px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    width: 170px;
+}
