@@ -1,323 +1,505 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
-<!----------------------------------------------Head starts -->
-<head>
+  <!-------------------------------------------------- Head starts -->
+  <head>
     <meta charset="UTF-8" />
     <title>Huawei</title>
-    <!---- Media querie stuff -->
+
+    <!-- Media querie stuff -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!---- link to google fonts -->
+    <!-- link to google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link 
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap"
-        rel="stylesheet"
-    />
-
-    <!-- load in fontawesome-->
     <link
-        rel="stylesheet"
-        href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-        crossorigin="anonymous"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap"
+      rel="stylesheet"
     />
 
-    <!-- link to styles  -->
-    <link rel="stylesheet" href="./style.css" />
-</head>
+    <!-- load in fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
 
-<body>
-    <!--- Body begins-->
+    <!-- link to styles -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- Body begins -->
     <div class="blackmenu">
-        <!--  -->
-        <div class="menuitem">
-            <img 
-            class="corporateicon"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Ciudad.svg/320px-Ciudad.svg.png"
-            alt="Image of a building icon"
-            />
-            <h3>Corporate</h3>
-         </div>
-        <!---    -->
-        <div class="menuitem">
-            <img 
-            class="worldicon"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Monumento.svg/320px-Monumento.svg.png"
-            alt="Image of a castle icon"
-            />
-            <h3>Worldwide</h3>
-        </div>
-        <!---    -->
-        <div class="menuitem">
-            <img 
-            class="loginicon"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mail_symbol.PNG/120px-Mail_symbol.PNG"
-            alt="Image of a envelope icon"
-            />
-            <h3>Login</h3>
-        </div>
+      <!--  -->
+      <div class="menuitem">
+        <img
+          class="corporateicon"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Ciudad.svg/320px-Ciudad.svg.png"
+          alt="Image of a building icon "
+        />
+        <h3>Corporate</h3>
+      </div>
+      <!--  -->
+      <div class="menuitem">
+        <img
+          class="worldicon"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Monumento.svg/320px-Monumento.svg.png"
+          alt="Image of a castle icon"
+        />
+        <h3>Worldwide</h3>
+      </div>
+      <!--  -->
+      <div class="menuitem">
+        <img
+          class="loginicon"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mail_symbol.PNG/120px-Mail_symbol.PNG"
+          alt="Image of a envelope icon"
+        />
+        <h3>Login</h3>
+      </div>
     </div>
 
-    <!-----------White Menu -------->
-
+    <!-- White menu -->
 
     <nav class="menu">
-        <!-- The menu is made of:
-        1. The huawei logo and the name.
-        2. 5 menu items, each item leading to a different page.
+      <!-- The menu is made of:
+        1. The huawei logo  and the name.
+        2. 5 menu items,each item leading to a different page.
         3. A divising that contains the 'buy icon and the 'search icon'.
-        -->
+      -->
 
-        <!-- Below is the huawei logo -->
-        <img
-            class="menu_icon logo"
-            src="//www-file.huawei.com/-/media/corporate/images/home/logo/huawei_logo.png"
-        />
+      <!-- Below is the huawei logo -->
+      <img
+        class="menu_icon logo"
+        src="https://thinkwireless.nz/wp-content/uploads/2016/10/huawei-logo-horizontal.jpg"
+      />
 
-        <!-- Below are the 5 menu items -->
+      <!-- Below are the 5 menu items -->
 
-        <ul class="menu_options desk">
-            <li>
-                <a href=""> Consumer products</a>
-                <a href=""> Business Products</a>
-                <a href=""> Support</a>
-                <a href=""> Partners & Developers</a>
-                <a href=""> About Huawei</a>
-            </li>
-        </ul>
-        <!-- Below are the two icons -->
-        <div class="icons">
-            <!-- buy icon -->
-            <div class="single_icon">
-                <img 
-                class="menu_icon"
-                src="./assets/icons/buy.png"
-                alt="Icon image of a shopping bag on top of a hand"
-                />
-                <p>Buy</p>
-            </div>
+      <ul class="menu_options desk">
+        <li>
+          <a href=""> Consumer products </a>
+          <a href=""> Bussiness products </a>
+          <a href=""> Support </a>
+          <a href=""> Partners & Developers </a>
+          <a href=""> About Huawei </a>
+        </li>
+      </ul>
 
-            <!-- Search icon -->
+      <!-- Below is the mobile menu -->
 
-            <div class="single_icon">
-                <img 
-                src="assets/icons/search.png"
-                alt="Image of a magnifiying glass icon"
-                class="menu_icon"
-                />
-            </div>
+      <ul class="main_options phone">
+        <li>
+          <a>Menu <span>▼</span></a>
+          <ul class="sub-menu">
+            <li><a>Consumer products</a></li>
+            <li><a> Business products</a></li>
+            <li><a>Support</a></li>
+            <li><a>Partner & Developers</a></li>
+            <li><a>About Huawei</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- Below are the two icons -->
+      <div class="icons">
+        <!-- buy icon -->
+        <div class="single_icon">
+          <img
+            class="menu_icon"
+            src="./assets/icons/buy.png"
+            alt="Icon image of a shopping bag on top of a hand"
+          />
+          <p>Buy</p>
         </div>
+        <!-- Search icon -->
+        <div class="single_icon">
+          <img
+            src="assets/icons/search.png"
+            alt="Image of a magnifying glass icon"
+            class="menu_icon"
+          />
+        </div>
+      </div>
     </nav>
-    <!--  Header Start -->
-
+    <!-- Header start  -->
     <header class="header">
-        <!-- The header is made of:
-            1. a large picture
-            2. a button
-        -->
+      <!-- The header is made of:
+        1. a large picture
+        2. a button 
+       -->
 
-        <!-- Below is the image-->
-        <img
+      <!-- Below is the image -->
+      <img
         class="banner"
         src="assets/photos/header.png"
-        alt="Image of watch, two laptops, phone, airpods with the title better together"
-        />
+        alt="Image of a watch, two laptops, a phone and airpods; with the title better together on top."
+      />
 
-
-        <!-- Below is the button-->
-        <button class="learnmore">Learn more</button>
+      <!-- Below is the button -->
+      <button class="learnmore">Learn more</button>
     </header>
-
-    <!-- Header End -->
+    <!-- Header end -->
 
     <!-- What's new start -->
-
     <section class="whats_new">
-        <div class="wrapper">
-            <!-- What's new is made of:
-                3 rows. 
-                Row 1: 2 pics
-                Row 2: 2 pics.
-                Row 3: 3 pics.
-            -->
-
-            <h1 class="heading">What's new</h1>
-            <p class="heading_underline">_______</p>
-            <div class="allrows">
-                <div class="rowone">
-                    <img 
-                    class="watch"
-                    src="./assets/photos/watch.png"
-                    alt="big grey watch with grey straps"
-                    />
-                    <img 
-                        class="girlnwatch"
-                        src="./assets/photos/girlnwatch.png"
-                        alt="girl wearing a watch"
-                    />
-                </div>
-                <!--  -->
-                <div class="rowtwo">
-                    <img
-                        class="earbuds"
-                        src="./assets/photos/earbuds.png"
-                        alt="guy wearing airpods" 
-                    />
-                    <img 
-                        class="laptop"
-                        src="./assets/photos/laptop.png" 
-                        alt="a light grey laptop"
-                    />
-                </div>
-                <!-- -->
-                <div class="rowthree">
-                    <img
-                        class="airport"
-                        src="./assets/photos/airport.png"
-                        alt="a airport"
-                    />
-                    <img
-                        class="nature"
-                        src="./assets/photos/nature.png"
-                        alt="river surrounded by land"
-                    /> 
-                    <img
-                        class="magazine"
-                        src="./assets/photos/magazine.png"
-                        alt="win win magazine"
-                    />  
-                </div>
-            </div>
-        </div>
-    </section>
-<!-- What's new end-->
-
-<!-- Mate 40 starts-->
-
-    <section class="mate40">
-        <img
-            class="banner" 
-            src="./assets/photos/secondbanner.png"
-            alt="huawei phone with grey background"
-        />
-    </section>
-<!-- Mate 40 ends-->
-
-<!-- News and Events starts -->
-<section class="newsandevents">
-    <div class="wrapper">
-        <!-- News and events is made of 3 boxes:
-            1. A box that contains a picture, event name, date & location
-            2. A box that contains a picture, event name, date & location
-            3. A box that contains a list of news titles and dates
+      <div class="wrapper">
+        <!--  Whats new is made of:
+              3 rows. 
+              Row 1: 2 pics
+              Row 2: 2 pics
+              Row 3: 3pics.
         -->
-        <h1 class="heading">News & Events</h1>
+        <h1 class="heading">What's new</h1>
+        <p class="heading_underline">________</p>
+        <div class="allrows">
+          <div class="rowone">
+            <img
+              class="watch"
+              src="./assets/photos/watch.png"
+              alt="big watch with grey straps"
+            />
+            <img
+              class="girlnwatch"
+              src="./assets/photos/girlnwatch.png"
+              alt="girl wearing a watch"
+            />
+          </div>
+          <!--  -->
+          <div class="rowtwo">
+            <img
+              class="earbuds"
+              src="./assets/photos/earbuds.png"
+              alt="guy wearing airpos"
+            />
+            <img
+              class="laptop"
+              src="./assets/photos/laptop.png"
+              alt="a light grey latop"
+            />
+          </div>
+          <!--  -->
+          <div class="rowthree">
+            <img
+              class="airport"
+              src="./assets/photos/airport.png"
+              alt="a airport"
+            />
+            <img
+              class="nature"
+              src="./assets/photos/nature.png"
+              alt="river surrounded by land"
+            />
+            <img
+              class="magazine"
+              src="./assets/photos/magazine.png"
+              alt="win win magazine cover"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- What's new end -->
+
+    <!-- Mate40 starts -->
+    <section class="mate40">
+      <img
+        class="banner"
+        src="./assets/photos/secondbanner.png"
+        alt="huawei phone with a grey background"
+      />
+    </section>
+    <!-- Mate40 ends -->
+
+    <!-- News and events starts -->
+    <section class="newsandevents">
+      <div class="wrapper">
+        <!--  News and events is made up of 3 boxes:
+              1. A box that contains a picture, event name, date and location.
+              2. A box that contains a picture, event name, date and location.
+              3. A box that contains a list of news titles and dates. 
+        -->
+        <h1 class="heading">News and Events</h1>
         <p class="heading_underline">________</p>
         <div class="allevents">
-            <!--  -->
-            <div class="eventbox firstpost">
-                <h4 class="boxtag">Event</h4>
-                <img 
-                    class="eventimage"
-                    src="./assets/photos/city.png" 
-                    alt="a picture of a cuty and water"
+          <!--  -->
+          <div class="eventbox firstpost">
+            <h4 class="boxtag">Event</h4>
+            <img
+              class="eventimage"
+              src="./assets/photos/city.png"
+              alt="a picture of a city and water"
+            />
+            <h2 class="eventname">
+              NGON 2020 & Huawei Optical Innovation Forum 2020
+            </h2>
+            <div class="location_date">
+              <div class="location">
+                <img
+                  class="locationicon"
+                  src="./assets/icons/location.png"
+                  alt="image of a location icon"
                 />
-                <h2 class="eventname">
-                    NGON 2020 & Huawei Optical Innovation Forum 2020
-                </h2>
-                <div class="location_date">
-                    <div class="location">
-                        <img 
-                            class="locationicon"
-                            src="./assets/icons/location.png" 
-                            alt="image of a location icon"
-                        />
-                        <h3 class="location_text">Webcast</h3>
-                    </div>
-                    <div class="date">
-                        <img 
-                            class="calendaricon"
-                            src="./assets/icons/calendar.png" 
-                            alt="image of a calendar icon"
-                        />
-                        <h3 class="location_text">Nov 30, 2020</h3>
-                    </div>
-                </div>
-            </div>
-
-            <!--  -->
-
-            <div class="eventbox secondpost">
-                <h4 class="boxtag">Event</h4>
-                <img 
-                    class="eventimage"
-                    src="./assets/photos/event.png" 
-                    alt="event poster red with title, date, location"
+                <h3 class="location_text">Webcast</h3>
+              </div>
+              <div class="date">
+                <img
+                  class="calendaricon"
+                  src="./assets/icons/calendar.png"
+                  alt="image of a calendar icon"
                 />
-                <h2 class="eventname">
-                    Global Mobile Broadband Forum 2020
-                </h2>
-                <div class="location_date">
-                    <div class="location">
-                        <img 
-                            class="locationicon"
-                            src="./assets/icons/location.png" 
-                            alt="image of a location icon"
-                        />
-                        <h3 class="location_text">Shanghai, China</h3>
-                    </div>
-                    <div class="date">
-                        <img 
-                            class="calendaricon"
-                            src="./assets/icons/calendar.png" 
-                            alt="image of a calendar icon"
-                        />
-                        <h3 class="location_text">Nov 12-13, 2020</h3>
-                    </div>
-                </div>
+                <h3 class="location_text">Nov 30, 2020</h3>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="eventbox secondpost">
+            <h4 class="boxtag">Event</h4>
+            <img
+              class="eventimage"
+              src="./assets/photos/event.png"
+              alt="event poster with title, date, location"
+            />
+            <h2 class="eventname">Global Mobile Broadband Form 2020</h2>
+            <div class="location_date">
+              <div class="location">
+                <img
+                  class="locationicon"
+                  src="./assets/icons/location.png"
+                  alt="image of a location icon"
+                />
+                <h3 class="location_text">Shanghai, China</h3>
+              </div>
+              <div class="date">
+                <img
+                  class="calendaricon"
+                  src="./assets/icons/calendar.png"
+                  alt="image of a calendar icon"
+                />
+                <h3 class="location_text">Nov 12-14, 2020</h3>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="eventbox manyposts">
+            <h4 class="boxtag tagnews">News</h4>
+            <!--  -->
+            <div class="newspost">
+              <h2 class="newstitle">Digital Power</h2>
+              <h3 class="newsdate">Jan 15, 2020</h3>
             </div>
             <!--  -->
-
-            <div class="eventbox manyposts">
-                <h4 class="boxtag tagnews">News</h4>
-                <div class="newspost">
-                    <h2 class="newstitle">Digital Power</h2>
-                    <h3 class="newsdate">Jan 15, 2020</h3>
-                </div>
-                <div class="newspost">
-                    <h2 class="newstitle">Huawei iMaster MAE Wins the 2020 Communication World Excellent Solution</h2>
-                    <h3 class="newsdate">Jan 12, 2020</h3>
-                </div>
-                <div class="newspost">
-                    <h2 class="newstitle">Huawei Recognized as a  2020 Gartner Peer Insights Customers' Choice for Data Center and Cloud Networking with the Highest Rating</h2>
-                    <h3 class="newsdate">Jan 15, 2020</h3>
-                </div>
-                <div class="newspost">
-                    <h2 class="newstitle">Huawei released Top 10 Trends of Digital Power</h2>
-                    <h3 class="newsdate">Jan 15, 2020</h3>
-                </div>
+            <div class="newspost">
+              <h2 class="newstitle">
+                Huawei iMaster MAE wins the 20202 Communiction World Excellent
+                solution
+              </h2>
+              <h3 class="newsdate">Feb 25, 2020</h3>
             </div>
             <!--  -->
-
-            <div class="newsandevents_buttons">
-                <button class="moreinfo">More Events</button>
-                <button class="moreinfo">More News</button>
+            <div class="newspost">
+              <h2 class="newstitle">
+                Huawei Recognized as a 2020 Gartner Peer Insights Customers
+                Choice for Data Center and Cloud Networking with the Highest
+                Rating
+              </h2>
+              <h3 class="newsdate">Mar 10, 2020</h3>
             </div>
-
             <!--  -->
+            <div class="newspost">
+              <h2 class="newstitle">
+                Huawei related Top 10 Trends of Digital power
+              </h2>
+              <h3 class="newsdate">April 15, 2020</h3>
+            </div>
+            <!--  -->
+            <div class="newspost">
+              <h2 class="newstitle">Digital Power</h2>
+              <h3 class="newsdate">Jan 15, 2020</h3>
+            </div>
+            <!--  -->
+            <div class="newspost">
+              <h2 class="newstitle">Digital Power</h2>
+              <h3 class="newsdate">Jan 15, 2020</h3>
+            </div>
+            <!--  -->
+            <div class="newspost">
+              <h2 class="newstitle">
+                Huawei iMaster MAE wins the 20202 Communiction World Excellent
+                solution
+              </h2>
+              <h3 class="newsdate">Feb 25, 2020</h3>
+            </div>
+            <!--  -->
+            <div class="newspost">
+              <h2 class="newstitle">
+                Huawei Recognized as a 2020 Gartner Peer Insights Customers
+                Choice for Data Center and Cloud Networking with the Highest
+                Rating
+              </h2>
+              <h3 class="newsdate">Mar 10, 2020</h3>
+            </div>
+            <!--  -->
+            <div class="newspost">
+              <h2 class="newstitle">
+                Huawei related Top 10 Trends of Digital power
+              </h2>
+              <h3 class="newsdate">April 15, 2020</h3>
+            </div>
+            <!--  -->
+            <div class="newspost">
+              <h2 class="newstitle">Digital Power</h2>
+              <h3 class="newsdate">Jan 15, 2020</h3>
+            </div>
+            <!--  -->
+          </div>
+          <!--  -->
         </div>
-    </div>
-</section>
+        <div class="newsandevents_buttons">
+          <button class="moreinfo">More Events</button>
+          <button class="moreinfo">More News</button>
+        </div>
+      </div>
+    </section>
+    <!-- News and events ends -->
 
-<!-- News and events ends -->
+    <!-- Penultimate starts -->
+    <section class="penultimate">
+      <div class="wrapper">
+        <!--  The penultimate is made up of:
+              1. One row that contains the word home and the search icon.
+              2. One row that contains 6 columns of lists.
+              3. One row that contains:
+                - words on the left
+                - social media icons on the right
+         -->
 
+        <!-- Top row is below  -->
+        <div class="toprow">
+          <p>Home</p>
+          <img
+            class="searchicon"
+            src="./assets/icons/search.png"
+            alt="image of magnifying glass icon"
+          />
+        </div>
 
+        <!-- Middle row is below -->
+        <div class="middlerow">
+          <div class="columnone allcolumns">
+            <ul>
+              <li><span>About Huawei</span></li>
+              <li>Our Company</li>
+              <li>Annual reports</li>
+              <li>Corporate Governance</li>
+              <li>Executives</li>
+              <li>Career</li>
+              <li>Contact us</li>
+            </ul>
+            <ul class="columnone2ndlist">
+              <li>Sustainablilty</li>
+              <li>Trust Center</li>
+              <li>Publick Policy</li>
+              <li>Industry Analysts</li>
+              <li>Bond investors</li>
+              <li>Suppliers</li>
+            </ul>
+          </div>
 
-</body>
-<!-------------------------------------- Body ends-->
+          <ul class="columntwo allcolumns">
+            <li><span>News & Events</span></li>
+            <li>News</li>
+            <li>Events</li>
+            <li>Huawei Live</li>
+            <li>Gallery</li>
+            <li>Huaweir Facts</li>
+          </ul>
 
+          <ul class="columnthree allcolumns">
+            <li><span>Discover</span></li>
+            <li>Success Stories</li>
+            <li>Industry Insights</li>
+            <li>Publications</li>
+            <li>Huawei Blog</li>
+          </ul>
+
+          <ul class="columnfour allcolumns">
+            <li><span>Products</span></li>
+            <li>Consumer</li>
+            <li>Enterprise</li>
+            <li>Carrier</li>
+            <li>Huawei Cloud</li>
+          </ul>
+
+          <ul class="columnfive allcolumns">
+            <li><span>Support</span></li>
+            <li>Consumer Support</li>
+            <li>Huawei Cloud Support</li>
+            <li>Enterprise Support</li>
+            <li>Carrier Support</li>
+            <li>Security Bulletins</li>
+          </ul>
+        </div>
+
+        <!-- Last row below -->
+        <div class="lastrow">
+          <div class="words">
+            <p>Huawei Cloud</p>
+            <p>Fusion Solar Smart PV</p>
+          </div>
+
+          <div class="socials">
+            <img
+              class="social_logo"
+              src="./assets/icons/linkedin.png"
+              alt="icon of the linkedin logo"
+            />
+
+            <img
+              class="social_logo"
+              src="./assets/icons/facebook.png"
+              alt="icon of the facebook logo"
+            />
+
+            <img
+              class="social_logo"
+              src="./assets/icons/twitter.png"
+              alt="icon of the twitter logo"
+            />
+
+            <img
+              class="social_logo"
+              src="./assets/icons/youtube.png"
+              alt="icon of the youtube logo"
+            />
+
+            <img
+              class="social_logo"
+              src="./assets/icons/instagram.png"
+              alt="icon of the instagram logo"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Penultimate ends -->
+
+    <!-- Footer starts -->
+    <footer class="footerbox">
+      <p class="footer_copyright">© 2021 Huawei Technologies Co.,Ltd.</p>
+      <div class="footer_list">
+        <ul>
+          <li>Contact</li>
+          <li>Terms of Use</li>
+          <li>Privacy</li>
+          <li>Cookies</li>
+        </ul>
+      </div>
+    </footer>
+    <!-- Footer ends -->
+  </body>
+  <!---------------------------------------------------- Body ends -->
 </html>
